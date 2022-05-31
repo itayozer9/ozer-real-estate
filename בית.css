@@ -1,6 +1,5 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/2469108040-0.jpeg");
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -24,6 +23,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 428px;
   }
@@ -46,6 +49,10 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+  }
+
   .u-section-1 .u-text-2 {
     font-size: 1.5rem;
   }
